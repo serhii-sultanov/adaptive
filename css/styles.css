@@ -339,13 +339,17 @@ a {
 	/*Content*/
 
 	.content-text {
-		padding: 42px 20px 0;
+		padding: 42px 20px 20px;
 		font-size: 18px;
 		line-height: 22px;
 	}
 
 	.history-boxes {
 		padding: 25px 20px;
+	}
+
+	.history-boxes div:last-child {
+		margin: 0;
 	}
 
 	.history-box {
@@ -370,7 +374,7 @@ a {
 	}
 
 	.form-elements {
-		margin: 0 20px;
+		margin: 20px 20px 0;
 	}
 
 	.textarea {
