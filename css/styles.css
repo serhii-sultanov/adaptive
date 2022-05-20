@@ -52,7 +52,7 @@ a {
 
 .nav-item-link:hover {
 	font-weight: 600;
-	box-shadow: 0px 2px 0px #000;
+	box-shadow: 0 2px 0 #000;
 	transition: .07s;
 }
 
@@ -112,6 +112,7 @@ a {
 
 .form-elements {
 	margin-top: 47px;
+	padding-bottom: 100px;
 	position: relative;
 }
 
@@ -131,6 +132,7 @@ a {
 .btn {
 	width: 200px;
 	height: 60px;
+	border: none;
 	border-radius: 8px;
 	background-color: #000;
 	font-size: 28px;
@@ -146,6 +148,7 @@ a {
 	cursor: pointer;
 	background-color: #fff;
 	color: #000;
+	border: 1px solid #000;
 	transition: .7s;
 	box-shadow: 15px 10px 10px #000;
 }
@@ -241,7 +244,7 @@ a {
 	}
 
 	.menu-open .burger-icon:before {
-		transform: rotate(270deg);
+		transform: rotate(90deg);
 		position: absolute;
 		transition: .4s;
 	}
@@ -274,6 +277,7 @@ a {
 
 	.form-elements {
 		margin-top: 32px;
+		padding-bottom: 60px;
 	}
 }
 
@@ -375,6 +379,7 @@ a {
 
 	.form-elements {
 		margin: 20px 20px 0;
+		padding-bottom: 40px;
 	}
 
 	.textarea {
