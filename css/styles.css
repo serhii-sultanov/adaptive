@@ -352,7 +352,7 @@ a {
 		padding: 25px 20px;
 	}
 
-	.history-boxes div:last-child {
+	.history-box:last-child {
 		margin: 0;
 	}
 
